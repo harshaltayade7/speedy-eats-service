@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: speedy-eats-service
+  security:
+    user:
+      name: 'user'
+      password: 'user'
+jwt:
+  secret: "dlkjflkdjlkdjflkdfdfdffdfdddfddfdfdfdfdfdfdfddffddgsaadfdsdsdsfsgddgdggdsgdsgdsdsdsgdssgdgdsgdsgdsgdsdsdsgdsgdsdsgdsgds"
+  expiration: 400000
+
